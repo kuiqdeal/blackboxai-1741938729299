@@ -1,0 +1,165 @@
+{
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ",
+    "success": "تم بنجاح",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "create": "إنشاء",
+    "search": "بحث",
+    "filter": "تصفية",
+    "refresh": "تحديث",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "submit": "إرسال",
+    "confirm": "تأكيد",
+    "actions": "إجراءات"
+  },
+  "auth": {
+    "login": {
+      "title": "تسجيل الدخول إلى حسابك",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "rememberMe": "تذكرني",
+      "forgotPassword": "نسيت كلمة المرور؟",
+      "submit": "تسجيل الدخول",
+      "noAccount": "ليس لديك حساب؟",
+      "signUp": "إنشاء حساب"
+    },
+    "register": {
+      "title": "إنشاء حساب جديد",
+      "name": "الاسم الكامل",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "company": "اسم الشركة",
+      "tenantId": "معرف مساحة العمل",
+      "submit": "إنشاء حساب",
+      "haveAccount": "لديك حساب بالفعل؟",
+      "signIn": "تسجيل الدخول"
+    },
+    "forgotPassword": {
+      "title": "نسيت كلمة المرور؟",
+      "description": "أدخل بريدك الإلكتروني وسنرسل لك تعليمات إعادة تعيين كلمة المرور.",
+      "email": "البريد الإلكتروني",
+      "submit": "إرسال تعليمات إعادة التعيين",
+      "backToLogin": "العودة لتسجيل الدخول"
+    },
+    "resetPassword": {
+      "title": "إعادة تعيين كلمة المرور",
+      "description": "أدخل كلمة المرور الجديدة أدناه.",
+      "password": "كلمة المرور الجديدة",
+      "confirmPassword": "تأكيد كلمة المرور الجديدة",
+      "submit": "إعادة تعيين كلمة المرور"
+    }
+  },
+  "dashboard": {
+    "welcome": "مرحباً بعودتك، {{name}}!",
+    "stats": {
+      "totalLeads": "إجمالي العملاء المحتملين",
+      "activeCampaigns": "الحملات النشطة",
+      "revenue": "الإيرادات",
+      "conversionRate": "معدل التحويل"
+    },
+    "recentActivity": {
+      "title": "النشاط الأخير",
+      "noActivity": "لا يوجد نشاط حديث"
+    }
+  },
+  "leads": {
+    "title": "العملاء المحتملين",
+    "create": "إضافة عميل محتمل",
+    "import": "استيراد العملاء المحتملين",
+    "export": "تصدير العملاء المحتملين",
+    "filters": {
+      "status": "الحالة",
+      "source": "المصدر",
+      "dateRange": "النطاق الزمني"
+    },
+    "status": {
+      "new": "جديد",
+      "contacted": "تم الاتصال",
+      "qualified": "مؤهل",
+      "converted": "تم التحويل",
+      "lost": "مفقود"
+    },
+    "fields": {
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "company": "الشركة",
+      "status": "الحالة",
+      "source": "المصدر",
+      "createdAt": "تاريخ الإنشاء",
+      "updatedAt": "تاريخ التحديث"
+    }
+  },
+  "campaigns": {
+    "title": "الحملات",
+    "create": "إنشاء حملة",
+    "status": {
+      "draft": "مسودة",
+      "scheduled": "مجدولة",
+      "active": "نشطة",
+      "paused": "متوقفة مؤقتاً",
+      "completed": "مكتملة",
+      "failed": "فشلت"
+    },
+    "fields": {
+      "name": "الاسم",
+      "type": "النوع",
+      "status": "الحالة",
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء",
+      "budget": "الميزانية",
+      "performance": "الأداء"
+    }
+  },
+  "profile": {
+    "title": "إعدادات الملف الشخصي",
+    "sections": {
+      "profile": "الملف الشخصي",
+      "security": "الأمان",
+      "preferences": "التفضيلات"
+    },
+    "fields": {
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "company": "الشركة",
+      "currentPassword": "كلمة المرور الحالية",
+      "newPassword": "كلمة المرور الجديدة",
+      "confirmPassword": "تأكيد كلمة المرور"
+    }
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "sections": {
+      "general": "عام",
+      "notifications": "الإشعارات",
+      "security": "الأمان",
+      "billing": "الفواتير"
+    },
+    "theme": {
+      "title": "المظهر",
+      "light": "فاتح",
+      "dark": "داكن"
+    },
+    "language": {
+      "title": "اللغة",
+      "en": "الإنجليزية",
+      "ar": "العربية",
+      "fr": "الفرنسية"
+    }
+  },
+  "errors": {
+    "required": "{{field}} مطلوب",
+    "email": "بريد إلكتروني غير صالح",
+    "minLength": "يجب أن يكون {{field}} على الأقل {{length}} أحرف",
+    "passwordMatch": "كلمات المرور غير متطابقة",
+    "invalidCredentials": "بريد إلكتروني أو كلمة مرور غير صحيحة",
+    "serverError": "حدث خطأ في الخادم. يرجى المحاولة مرة أخرى لاحقاً."
+  }
+}

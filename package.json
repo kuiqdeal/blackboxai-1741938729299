@@ -1,0 +1,17 @@
+{
+  "name": "saas-app",
+  "version": "1.0.0",
+  "description": "AI-Powered SaaS Platform with Multi-Tenant Architecture",
+  "scripts": {
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
+    "build": "cd frontend && npm run build && cd ../backend && npm run build",
+    "start": "cd backend && npm start"
+  },
+  "keywords": ["saas", "ai", "multi-tenant", "lead-generation"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
